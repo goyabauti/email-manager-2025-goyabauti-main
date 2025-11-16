@@ -1,9 +1,11 @@
 package com.example;
 
-import com.example.Interfaces.EmailStore;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+
+import com.example.Interfaces.EmailStore;
+import com.example.Interfaces.SearchSpecification;
 
 public class EmailService {
 

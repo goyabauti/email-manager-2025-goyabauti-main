@@ -1,8 +1,11 @@
 package com.example;
 
-import com.example.interfaces.EmailStore;
+import java.util.ArrayList;
+import java.util.EnumMap;
+import java.util.List;
+import java.util.Map;
 
-import java.util.*;
+import com.example.Interfaces.EmailStore;
 
 public class InMemoryEmailStore implements EmailStore {
     private final Map<Bandeja, List<Email>> porBandeja = new EnumMap<>(Bandeja.class);

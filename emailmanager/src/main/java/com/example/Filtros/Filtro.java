@@ -1,10 +1,11 @@
 package com.example.Filtros;
 
-import com.example.Email;
-import com.example.Contacto;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
+
+import com.example.Email;
+import com.example.Interfaces.SearchSpecification;
 
 public class Filtro implements SearchSpecification {
     private final String nombre;
