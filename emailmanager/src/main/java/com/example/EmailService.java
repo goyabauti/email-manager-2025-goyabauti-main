@@ -1,8 +1,6 @@
 package com.example;
 
-import com.example.interfaces.EmailStore;
-import com.example.interfaces.SearchSpecification;
-
+import com.example.Interfaces.EmailStore;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
